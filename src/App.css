@@ -1,0 +1,59 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NO:wght@100..400&display=swap');
+
+ html{
+   font-family: "Playfair Display", serif !important;
+ }
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #f0f0f1aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #ece8e8;
+}
+body{
+  background: rgb(27, 26, 26);
+  color: white;
+}
+/* .notranslate{  border-color: white !important;
+ }  */
+
+ @font-face {
+  font-family:PD ;
+  src: url("/public/fonts/playfair/PlayfairDisplay-ExtraBold.ttf");
+  font-weight: 500;
+}
