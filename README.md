@@ -1,16 +1,54 @@
-# React + Vite
+# ⏰ Prayer Times App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prayer Times App is a modern **prayer times application** that displays daily prayer times based on the selected city, along with the city’s local time and a real-time countdown to the next prayer.
 
-Currently, two official plugins are available:
+The application provides a clean and user-friendly interface, allowing users to easily switch between cities and view accurate time-based information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- City-based prayer times fetched from the Aladhan API  
+- Display of the selected city’s **local time**  
+- Real-time countdown to the next scheduled prayer time  
+- City selection support  
+- Clean and responsive user interface  
+- Organized and maintainable project structure  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Technologies & Tools
+
+- React.js  
+- React Hooks (useState, useEffect, useMemo)  
+- Material UI (MUI)  
+- Axios  
+- Moment.js & Moment-Timezone  
+- Aladhan API  
+- HTML, CSS, JavaScript  
+
+---
+
+## ⏰ Time & Timezone Handling
+
+The application dynamically adjusts the displayed time according to the **selected city’s local timezone** using `moment-timezone`, ensuring accurate time representation across different regions.
+
+---
+
+## 🧠 Purpose
+
+This project was developed to practice:
+- API integration  
+- Timezone and time calculations  
+- Real-time updates in React  
+- Building clean and scalable user interfaces  
+
+---
+
+## 📌 Status
+
+The application is fully functional and can be extended with additional features such as:
+- Additional cities and regions  
+- Notifications and reminders  
+- UI theme customization  
+- Mobile optimizations  
