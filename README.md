@@ -52,3 +52,8 @@ The application is fully functional and can be extended with additional features
 - Notifications and reminders  
 - UI theme customization  
 - Mobile optimizations  
+
+---
+
+## ⚙️ Design overview
+![Description](Prayer.png)
